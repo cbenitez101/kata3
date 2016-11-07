@@ -34,14 +34,12 @@ public class HistogramDisplay extends ApplicationFrame{
         setVisible(true);
     }
     
-    
-    private JFreeChart createChart(DefaultCategoryDataset dataSet) {
+        private JFreeChart createChart(DefaultCategoryDataset dataSet) {
         JFreeChart chart = ChartFactory.createBarChart("JFreeChartHistogrem", "Dominios e-mail", "Numero de e-mails", dataSet, PlotOrientation.VERTICAL, false, true, true);
         return chart;
     }
 
-    
-    private DefaultCategoryDataset createDataset() {
+        private DefaultCategoryDataset createDataset() {
         DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
         dataSet.addValue(8, "", "gmail.com");
         dataSet.addValue(2, "", "hotmail.com");
