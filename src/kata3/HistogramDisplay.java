@@ -1,6 +1,5 @@
 package kata3;
 
-
 import java.awt.Dimension;
 import java.util.HashMap;
 import javax.swing.JPanel;
@@ -11,10 +10,6 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.ui.ApplicationFrame;
 
-/**
- *
- * @author Servibyte
- */
 public class HistogramDisplay extends ApplicationFrame{
     //public HashMap<String,Integer> histogram = new HashMap<>();
     public HistogramDisplay() {
